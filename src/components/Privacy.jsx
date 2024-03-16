@@ -6,7 +6,7 @@ const Privacy = () => {
         <div className='lg:py-10 py-5 relative'>
             <div className='container mx-auto xl:max-w-[1164px] px-3'>
                 <div className='flex items-center lg:justify-between justify-center flex-wrap flex-row'>
-                    <div className='xl:w-[46%] lg:w-[47%] sm:w-[70%] w-full'>
+                    <div className='xl:w-[45%] lg:w-[47%] sm:w-[70%] w-full'>
                         <img src={PrivacyImg} alt="PrivacyImg" className='w-full' />
                     </div>
                     <div className='xl:w-[45.5%] lg:w-[50%] w-full lg:mt-0 sm:mt-10 mt-6'>
