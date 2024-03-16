@@ -14,9 +14,9 @@ const Header = () => {
         document.body.classList.remove("max-lg:overflow-hidden")
     }
     return (
-        <div className="bg-[url('./assets/images/png/header-bg-img.png')] bg-cover bg-center bg-no-repeat">
+        <div className="bg-[url('./assets/images/png/header-bg-img.png')] bg-cover bg-center bg-no-repeat relative">
             <div className='bg-[#12121299] w-full'>
-                <div className='sm:px-[40px] px-6 sm:py-[22.8px] mx-auto py-4 flex items-center justify-between w-full 2xl:max-w-[1440px]'>
+                <div className='sm:px-[40px] px-3 sm:py-[22.8px] mx-auto py-4 flex items-center justify-between w-full 2xl:max-w-[1440px]'>
                     <a href="">
                         <img src={Logo} alt="Logo" width={160} className='sm:w-[235px]' />
                     </a>
@@ -44,11 +44,12 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className='container mx-auto xl:max-w-[1164px] xl:px-3 px-6 lg:pt-[137px] lg:pb-[226px] md:py-[100px] sm:py-[80px] py-[60px] flex items-center justify-center flex-col'>
-                <img src={Hatimg} alt="Hatimg" width={159.73} height={121.97} className='' />
-                <h1 className='text-[64px] font-semibold text-center leading-[96.5%] text-white mt-[23.53px] mb-[35.12px]'>Experts in Cyber <span className='block'>Security</span></h1>
+            <div className='container mx-auto xl:max-w-[1164px] px-3 xl:pt-[137px] xl:pb-[226px] lg:pb-[150px] md:py-[100px] sm:py-[80px] py-[70px] flex items-center justify-center flex-col relative z-10'>
+                <img src={Hatimg} alt="Hatimg" width={120} className='sm:w-[159.73px] ' />
+                <h1 className='sm:text-[64px] text-[40px] font-semibold text-center leading-[97%] text-white sm:mt-[23.53px] sm:mb-[35.12px] mt-4 mb-6'>Experts in Cyber <span className='sm:block'>Security</span></h1>
                 <CommonBtn btnname="Discover" />
             </div>
+            <div className='bg-gradient-to-t from-[#0C0C0C] via-[rgba(12,12,12,0.44) ] to-[rgba(17,17,16,0.69)] absolute left-0 right-0 h-[126px] bottom-[-27px] blur-[13px]'></div>
         </div>
     )
 }
