@@ -33,7 +33,7 @@ const Header = () => {
                                 <img src={Flag1} alt="Flag1" width={20} height={20} className='rounded-[64px] border-[0.4px] border-solid border-white' />
                             </a>
                             <a href="">
-                                <img src={Flag2} alt="Flag1" width={20} height={20} className='rounded-[64px] border-[0.4px] border-solid border-white' />
+                                <img src={Flag2} alt="Flag1" width={20} height={20} className='rounded-[64px] border-[0.4px] border-solid border-[#FFFFFF66]' />
                             </a>
                         </div>
                         <div onClick={() => setNav(!nav)} className='lg:hidden w-[28px] h-[20px] relative z-20 flex justify-between flex-col cursor-pointer'>
