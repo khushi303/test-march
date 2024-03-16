@@ -23,16 +23,7 @@ const Header = () => {
                         <li><a href="" className='text-[16px] font-normal text-white leading-[150%] after:duration-300 relative after:ease-linear after:transition-all after:bg-[#BAFF00] after:w-0 after:hover:w-full after:bottom-[-3px] after:absolute after:left-[50%] after:hover:left-0 after:right-0 after:h-[2px] after:rounded-sm hover:text-[#BAFF00] transition-all duration-300 ease-linear'>About</a></li>
                         <li><a href="" className='text-[16px] font-normal text-white leading-[150%] after:duration-300 relative after:ease-linear after:transition-all after:bg-[#BAFF00] after:w-0 after:hover:w-full after:bottom-[-3px] after:absolute after:left-[50%] after:hover:left-0 after:right-0 after:h-[2px] after:rounded-sm hover:text-[#BAFF00] transition-all duration-300 ease-linear'>Product</a></li>
                         <li><a href="" className='text-[16px] font-normal text-white leading-[150%] after:duration-300 relative after:ease-linear after:transition-all after:bg-[#BAFF00] after:w-0 after:hover:w-full after:bottom-[-3px] after:absolute after:left-[50%] after:hover:left-0 after:right-0 after:h-[2px] after:rounded-sm hover:text-[#BAFF00] transition-all duration-300 ease-linear'>Contact</a></li>
-                        {/* <li>
-                        <div className='flex items-center gap-[10px]'>
-                            <a href="">
-                                <img src={Flag1} alt="Flag1" width={20} height={20} className='rounded-[64px] border-[0.4px] border-solid border-white' />
-                            </a>
-                            <a href="">
-                                <img src={Flag2} alt="Flag1" width={20} height={20} className='rounded-[64px] border-[0.4px] border-solid border-white' />
-                            </a>
-                        </div>
-                    </li> */}
+                       
                     </ul>
                     <div className='flex items-center gap-[10px]'>
                         <a href="">
