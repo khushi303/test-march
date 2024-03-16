@@ -4,6 +4,7 @@ import User from './components/User'
 import Privacy from './components/Privacy'
 import Services from './components/Services'
 import SecuritySec from './components/SecuritySec'
+import FutherServices from './components/FutherServices'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Privacy />
       <Services />
       <SecuritySec />
+      <FutherServices />
     </div>
   );
 }
