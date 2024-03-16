@@ -3,6 +3,7 @@ import Header from './components/Header'
 import User from './components/User'
 import Privacy from './components/Privacy'
 import Services from './components/Services'
+import SecuritySec from './components/SecuritySec'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <User />
       <Privacy />
       <Services />
+      <SecuritySec />
     </div>
   );
 }
