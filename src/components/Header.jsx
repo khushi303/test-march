@@ -28,10 +28,10 @@ const Header = () => {
 
                         </ul>
                         <div className='flex items-center gap-[10px]'>
-                            <a href="">
+                            <a href="#">
                                 <img src={Flag1} alt="Flag1" width={20} height={20} className='rounded-[64px] border-[0.4px] border-solid border-white' />
                             </a>
-                            <a href="">
+                            <a href="#">
                                 <img src={Flag2} alt="Flag1" width={20} height={20} className='rounded-[64px] border-[0.4px] border-solid border-[#FFFFFF66]' />
                             </a>
                         </div>
