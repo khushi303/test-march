@@ -25,7 +25,7 @@ const Touch = () => {
         <div id='contact' className="xl:mb-[140px] lg:mb-[110px] md:mb-[60px] lg:mt-0 md:mt-[40px] mt-5 mb-8">
             <div className='container mx-auto xl:max-w-[1164px] px-3'>
                 <div data-aos="zoom-in" className="bg-[url('./assets/images/webp/bg-touch.webp')] bg-cover bg-center bg-no-repeat rounded-[24px] border border-solid border-[#FFFFFF29] lg:py-[64px] py-8 flex items-center justify-center flex-col md:px-0 sm:px-11 px-6">
-                    <h2 className='sm:text-[48px] text-[33px] font-normal leading-[120%] text-white text-center mb-[10px]'>Get into  <span className='text-[#BAFF00]'>touch</span></h2>
+                    <h2 className='sm:text-[48px] text-[33px] font-normal leading-[120%] text-white text-center mb-[10px]'>Get Into  <span className='text-[#BAFF00]'>Touch</span></h2>
                     <p className='text-[16px] font-normal leading-[150%] text-white opacity-80 text-center'>Defend your business against online threats while leveraging our IT security expertise and <span className='md:block'>experience for comprehensive protection and peace of mind.</span></p>
                     <div className='max-w-[518px] w-full'>
                         <form onSubmit={handleSubmit} className='flex w-full mt-8 border border-solid border-[#BAFF0066] rounded-[50px]'>

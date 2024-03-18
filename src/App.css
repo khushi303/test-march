@@ -1,15 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-/* 
-.region {
-    fill: #BAFF00;
-    stroke: #fff;
-    transition: fill 0.3s ease;
-}
-
-.region.selected {
-    fill: #BAFF00;
-    stroke: #000;
-} */
 
 * {
     scroll-behavior: smooth !important;
