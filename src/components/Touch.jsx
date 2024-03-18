@@ -35,7 +35,7 @@ const Touch = () => {
                                 value={email}
                                 required
                                 onChange={handleChange} placeholder='Enter your email address' className='w-full bg-transparent text-white text-[16px] p-4 font-normal leading-[150%] outline-none opacity-60' />
-                            <button type='submit' className='sm:px-[27px] px-[24px] sm:py-[14px] py-[12px] rounded-[100px] bg-[#BAFF00] whitespace-nowrap font-medium text-[16px] leading-[130%] text-[#111111] transition-all duration-300 ease-linear hover:shadow-[0_2px_20px_0_#BAFF00] border-[2px] border-solid border-[#bbff0093] m-[1.7px]'>Sign up</button></form>
+                            <button type='submit' className='sm:px-[27px] px-[24px] sm:py-[14px] py-[12px] rounded-[100px] bg-[#BAFF00] whitespace-nowrap font-medium text-[16px] leading-[130%] text-[#111111] transition-all duration-300 ease-linear hover:shadow-[0_2px_20px_0_#BAFF00] border-[2px] border-solid border-[#bbff0093] m-[2px]'>Sign up</button></form>
                     </div>
                 </div>
             </div>

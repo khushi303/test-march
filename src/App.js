@@ -59,7 +59,7 @@ function App() {
         <>
           <div className='fixed min-h-screen bg-[#0C0C0C] top-0 left-0 right-0 bottom-0 flex items-center justify-center'>
             <div className='max-w-[95px] w-full'>
-              <img src={Hatimg} alt="Hatimg" width={120} className='sm:w-[159.73px] animation' />
+              <img src={Hatimg} alt="Hatimg" width={100} className='sm:w-[150px] animation' />
             </div>
 
           </div>
